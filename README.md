@@ -21,12 +21,12 @@ $\frac{dx}{dt}=a(1-e^{-bt})-cx$								(2)
   
 $t_{max}=\ln⁡(\frac{ab}{c}) b^{-1}$   									(3)  
   
-I then multiplied (2) by an unknown constant $a*$ such that $\frac{dx}{dt}$ equals $a$ at $t_{max}$. Substituting these into (2) produces the following:  
+I then multiplied (2) by an unknown constant $a^*$ such that $\frac{dx}{dt}$ equals $a$ at $t_{max}$. Substituting these into (2) produces the following:  
   
 $a= a^* (a(1-e^{\frac{-b}{b}  ln⁡(\frac{ab}{c}) })-cx)$  
     $= a^* (a-\frac{a^2 b}{c-cx})$									(4)  
       
-Solving (4) for $a*$ and substituting produces the following:  
+Solving (4) for $a^*$ and substituting produces the following:  
   
 $\Large\frac{dx}{dt}=\frac{(a^2 (1 - e^{-bt} )  - act)}{(a - \frac{c}{b(1 + ln⁡(\frac{ab}{c}))})}$								(5)  
   
